@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+class Aircraft(models.Model):
+    models = models.CharField(max_length=25)
+
+    class Meta:
+        db_table = 'aircraft'
+
+    def __str__(self):
+        return self.models
