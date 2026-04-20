@@ -1,1 +1,0 @@
-SELECT * FROM "aircraft_aircraft" LIMIT 1000;
